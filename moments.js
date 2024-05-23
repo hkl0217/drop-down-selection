@@ -5,5 +5,6 @@ function chosenCounty(event) {
       .format("dddd, MMMM DD YYYY hh:mm a");
     alert(`It is ${selectedCountry} in ${chosenCountry}`);
   }
+
   let countries = document.querySelector("#selected-countries");
-  countries.addEventListener("change", chosenCountry);
+  countries.addEventListener ("click", chosenCountry);
