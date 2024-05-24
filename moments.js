@@ -1,4 +1,4 @@
-function chosenCounty(event) {
+function handleChange(event) {
     let chosenCountry = event.target.value;
     let selectedCountry = moment()
       .tz(`${chosenCountry}`)
@@ -7,4 +7,4 @@ function chosenCounty(event) {
   }
 
   let countries = document.querySelector("#selected-countries");
-  countries.addEventListener ("click", chosenCountry);
+  countries.addEventListener ("change", handleChange);
