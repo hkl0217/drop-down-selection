@@ -7,4 +7,4 @@ function handleChange(event) {
   }
 
   let countries = document.querySelector("#selected-countries");
-  countries.addEventListener ("change", handleChange);
+  countries.addEventListener("change", handleChange);
